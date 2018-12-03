@@ -88,7 +88,7 @@ StopTrade Client
 
 @snap[west]
 
-```json
+```
 {
   "eventType": "New",
   "payload": {
@@ -120,7 +120,7 @@ StopTrade Client
 
 @snap[east]
 
-```cs
+```
 public class RawStopTradeCarrier
 {
     public StopTradeEventType EventType { get; set; }  // New | Delete

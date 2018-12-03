@@ -68,24 +68,6 @@ StopTrade Client
 
 ---
 
-
----
-
-@snap[north-west]
-@size[1.5em](GraphQL)
-@snapend
-
-@snap[west graphql-details]
-
-@snapend
-
-@snap[east graphql-arch]
-![](assets/images/graphql.png)
-@snapend
-
-
----
-
 @snap[west]
 
 ```

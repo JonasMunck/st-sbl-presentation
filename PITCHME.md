@@ -68,7 +68,6 @@ StopTrade Client
 
 ---
 
-@snap[west]
 
 ```
 {
@@ -97,10 +96,7 @@ StopTrade Client
   }
 }
 ```
-
-@snapend
-
-@snap[east]
+---
 
 ```
 public class RawStopTradeCarrier
@@ -126,7 +122,5 @@ public class StopTradeMessage : BaseStopTradeMessage
     public List<FieldInformation> EditableFields { get; set; }
 }
 ```
-
-@snapend
 
 ---

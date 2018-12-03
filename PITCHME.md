@@ -87,6 +87,7 @@ StopTrade Client
 ---
 
 @snap[west]
+
 ```json
 {
   "eventType": "New",
@@ -114,9 +115,11 @@ StopTrade Client
   }
 }
 ```
+
 @snapend
 
 @snap[east]
+
 ```cs
 public class RawStopTradeCarrier
 {
@@ -141,6 +144,7 @@ public class StopTradeMessage : BaseStopTradeMessage
     public List<FieldInformation> EditableFields { get; set; }
 }
 ```
+
 @snapend
 
 ---

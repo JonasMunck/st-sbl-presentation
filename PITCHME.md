@@ -15,9 +15,58 @@ An Implementation
 ---
 
 Although mature, this is still work in progress.
-If you find flaws in the architecture or implementation - let me know!
+
+@box[bg-orange text-white rounded demo-box-pad](If you find flaws in the architecture or implementation - let me know!)
 
 ---
+
+@snap[north-west]
+@size[1.5em](Overview)
+@snapend
+
+@snap[east fragment]
+Producer
+
+ - produces stop trade messages, dispatches on kafka
+ - Implements HTTP API to let stop trade client send commands to resolve stop trades. Replies if resolving was successful or not
+@snapend
+
+@snap[east fragment]
+StopTrade Service
+
+- Consumes from kafka
+- Stores messages in AMPS
+- Has HTTP API so that client can list, query and delete stop trade messages
+@snapend
+
+@snap[east fragment]
+StopTrade Client
+
+- Display stop trade messages in a "good way"
+- Allows user to edit and resolve stop trade messages
+@snapend
+
+@snap[west]
+![](img/stopped-trades-high-level.png)
+@snapend
+
+
+---
+
+
+---
+
+@snap[north-west]
+@size[1.5em](GraphQL)
+@snapend
+
+@snap[west graphql-details]
+
+@snapend
+
+@snap[east graphql-arch]
+![](assets/images/graphql.png)
+@snapend
 
 
 ---

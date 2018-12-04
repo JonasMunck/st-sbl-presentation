@@ -8,8 +8,17 @@
     box-shadow: none !important;
 }
 
+.west.high-level {
+    width: 30%
+}
+
+.east.high-level {
+    width: 70%
+}
+
 .high-level img {
     height: 100%;
     border: none !important;
     box-shadow: none !important;
 }
+

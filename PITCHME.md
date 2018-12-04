@@ -1,5 +1,3 @@
-theme-override: custom.css
-
 # StopTrades
 
 An Implementation

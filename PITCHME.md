@@ -116,17 +116,6 @@ Due to this structure it is easy to change the format of the payload without bre
 
 Information for UI to build tree-like relations between (independent) messages.
 
-@snap[west]
-
-```json
-{
-  "foo": "bar"
-}
-```
-
-@snapend
-
-@snap[east]
 
 ```text
 A
@@ -139,8 +128,6 @@ B
 @[1-2],
 @[1-2,4-5]
 @[1-5]
-
-@snapend
 
 
 ---

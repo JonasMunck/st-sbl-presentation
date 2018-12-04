@@ -27,9 +27,7 @@
 @snapend
 
 @snap[south]
-
-3. StopTrade Message is saved in AMPS and is now available for UI
-
+@box[bg-orange text-white](3#StopTrade Message is saved in AMPS and is now available for UI)
 @snapend
 
 ---

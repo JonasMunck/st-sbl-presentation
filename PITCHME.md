@@ -90,7 +90,7 @@ Due to this structure it is easy to change the format of the payload without bre
   "sourceId": 8912,
   "groupPath": ["18120300001N", 8912],
   "commonValues": {
-    "RefNo": "18120300003N"
+    "refNo": "18120300003N"
   },
   "errorMessage": "Settlement is not implemented",
   "editableFields": [
@@ -125,6 +125,47 @@ B
 @[1-2,4-5]
 @[1-5]
 
+
+---
+
+#### CommonValues
+
+plain key-value dict to show more info / provide better context to user.
+
+```json
+{
+  "refNo": "18120300003N"
+}
+```
+
+---
+
+#### EditableFields
+
+Generic way to let user update _specific_ values in stop trade client,
+which will override values on the resolved message in the target machine.
+
+
+
+```json
+{
+  "price": 100,
+  "volume": 5000
+}
+
+{
+  "volume": 4500
+}
+
+{
+  "price": 100,
+  "volume": 4500
+}
+```
+
+@[1-4](error payload)
+@[6-8](stop trade payload)
+@[10-13](resolved payload)
 
 ---
 

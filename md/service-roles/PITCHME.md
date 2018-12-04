@@ -4,8 +4,10 @@
 
 @snap[east high-level bullets]
 ### Producer
+
  - produces stop trade messages, dispatches on kafka
  - Implements HTTP API to let stop trade client send commands to resolve stop trades. Replies if resolving was successful or not
+
 @snapend
 
 @snap[west high-level]

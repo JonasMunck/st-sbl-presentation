@@ -5,6 +5,10 @@ An Implementation
 
 ---
 
+---?image=img/stop-trades-sequence-flow.png&size=contain
+
+---
+
 #### Generate Message
 
 ---
@@ -32,6 +36,8 @@ Up to target machine to know what and how resubmission should work
 @box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---
+
+#### "Circuit Break" strategy
 
 Up to target machine to decide if service should
 
@@ -63,7 +69,7 @@ Due to this structure it is easy to change the format of the payload without bre
 #### EventType
 
 - `New` - new stop trade, will be put in store
-- `Delete` - command to remove the stop trade message from the store
+- `Delete` - remove stop trade message from the store
 
 ---
 
@@ -76,14 +82,12 @@ Due to this structure it is easy to change the format of the payload without bre
 }
 ```
 
+This is common structure altrough our event based stack.
+See ADR 008
+
 ---
 
-### Payload - New
-
-
-
-
-
+### Payload - `New`
 
 ```json
 {

@@ -155,10 +155,12 @@ plain key-value dict to show more info / provide better context to user.
 
 #### EditableFields
 
-Generic way to let user update _specific_ values in stop trade client,
-which will override values on the resolved message in the target machine.
+@ul
+- Generic way to let user update _specific_ values in stop trade client
+- will override values on the resolved message in the target machine
+@ulend
 
-
+---
 
 ```json
 {

@@ -82,13 +82,32 @@ Due to this structure it is easy to change the format of the payload without bre
 
 ### Payload - New
 
+
+
+
+
+
 ```json
 {
   "source": "SBL STATE APPLIER",
   "sourceId": 8912,
-  "groupPath": ["18120300001N", "18120300003N"],
-
+  "groupPath": ["18120300001N", 8172],
+  "commonValues": {
+    "RefNo": "18120300003N"
+  },
+  "errorMessage": "Settlement is not implemented",
+  "editableFields": [
+    {
+      "name": "Volume",
+      "fieldType": "double",
+      "value": 5000.0
+    }
+  ]
 }
+
+@[2-3](index keys)
+@[4-8](UI structure enhancement)
+@[9-15](resolve)
 ```
 
 ---

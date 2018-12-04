@@ -38,7 +38,7 @@
 
 
 @snap[south-west span-30]
-@box[bg-orange text-white](4a#Client revokes message)
+@box[bg-orange text-white](4a#Client tries to resolve message)
 @snapend
 
 @snap[south span-30]

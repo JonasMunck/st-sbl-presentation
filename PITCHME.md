@@ -50,6 +50,15 @@ SBL Example
 
 ---
 
+![](img/akka-ok-status.svg)
+
+---
+
+![](img/akka-error-status.svg)
+
+---
+
+
 ### Stop Trade Carrier
 
 

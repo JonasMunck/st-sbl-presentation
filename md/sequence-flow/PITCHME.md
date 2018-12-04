@@ -15,11 +15,11 @@
 @snapend
 
 @snap[south-west]
-@box(2a#StopTrade Message is published on kafka)
+@box[bg-orange](2a#StopTrade Message is published on kafka)
 @snapend
 
 @snap[south-west]
-@box(2b#Original message in stored in target services domain)
+@box[bg-orange](2b#Original message in stored in target services domain)
 @snapend
 
 ---

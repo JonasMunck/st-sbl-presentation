@@ -1,4 +1,4 @@
-@snap[north]
+@snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
@@ -10,7 +10,7 @@
 
 ---
 
-@snap[north]
+@snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
@@ -23,7 +23,7 @@
 
 ---
 
-@snap[north]
+@snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
@@ -35,7 +35,7 @@
 
 ---
 
-@snap[north]
+@snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 

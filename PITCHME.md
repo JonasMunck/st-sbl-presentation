@@ -219,7 +219,7 @@ Although mature, this is still work in progress.
 @size[1.5em](ADR Goals)
 @snapend
 
-@ul
+@ul[tight-bullets]
 - @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades. (For example Equilend, ION STP etc.))
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)

@@ -7,7 +7,7 @@
 #### Producer
 
 @ul[](false)
- - produces stop trade messages, dispatches on kafka
+ - Produces stop trade messages, dispatches on kafka
  - Implements HTTP API to let stop trade client send commands to resolve stop trades. Replies if resolving was successful or not
  @ulend
 

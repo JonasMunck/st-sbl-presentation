@@ -5,7 +5,91 @@ An Implementation
 
 ---
 
-### Test
+#### Generate Message
+
+---
+
+Considerations from a target machine perspective
+
+- Amount of errors sent to stop trades
+- How to produce a good, meaningful - error message
+- Level of dynamics (editable fields, common fields)
+- Circuit break strategy
+
+---
+
+Up to target machine to know what and how resubmission should work
+
+@ul
+- Simple cases are simple
+- Complex editable stop trades will require quite some code
+@@ulend
+
+---
+
+@box[bg-orange text-white rounded demo-box-pad fragment](StopTrades is something rare - keep it simple!)
+
+---
+
+@box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
+
+---
+
+Up to target machine to decide if service should
+
+- stop process messages completely (_stop_)
+- stop a branch of messages (_branch_)
+- continue as normal (_pass through_)
+
+---
+
+SBL Example
+
+---
+
+### Payload
+
+
+ ```json
+{
+  "eventType": "New",
+  "payload": { },
+  "metadata": { }
+}
+ ```
+
+Due to this structure it is easy to change the format of the payload without breaking stuff.
+
+---
+
+#### EventType
+
+`New` - new stop trade, will be put in store
+`Delete` - command to remove the stop trade message from the store
+
+---
+
+#### Metadata
+
+```json
+{
+  "correlationId": "45tg4557-234r6-67y",
+  "originalSystem": "BETS CLIENT"
+}
+```
+
+---
+
+### Payload - New
+
+```json
+{
+  "source": "SBL STATE APPLIER",
+  "sourceId": 8912,
+  "groupPath": ["18120300001N", "18120300003N"],
+
+}
+```
 
 ---
 

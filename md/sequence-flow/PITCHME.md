@@ -3,9 +3,7 @@
 @snapend
 
 @snap[south]
-
-1. Message hits target machine and it generates a stop trade
-
+@box[bg-orange text-white](1#Message hits target machine and it generates a stop trade)
 @snapend
 
 ---
@@ -15,11 +13,11 @@
 @snapend
 
 @snap[south-west span-45]
-@box[bg-pink](2a#StopTrade Message is published on kafka)
+@box[bg-pink text-white](2a#StopTrade Message is published on kafka)
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-orange](2b#Original message in stored in target services domain)
+@box[bg-orange text-white](2b#Original message in stored in target services domain)
 @snapend
 
 ---

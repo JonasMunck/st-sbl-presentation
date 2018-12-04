@@ -1,5 +1,5 @@
 @snap[north-east]
-@size(1.5em)[Overview]
+@size[1.5em](Overview)
 @snapend
 
 @snap[east]
@@ -8,7 +8,7 @@ Producer
  - Implements HTTP API to let stop trade client send commands to resolve stop trades. Replies if resolving was successful or not
 @snapend
 
-@snap[west]
+@snap[west high-level]
 ![](img/stopped-trades-high-level.png)
 @snapend
 

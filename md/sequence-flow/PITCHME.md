@@ -27,7 +27,7 @@
 @snapend
 
 @snap[south]
-@box[bg-orange text-white](3#StopTrade Message is saved in AMPS and is now available for UI)
+@box[bg-green text-white](3#StopTrade Message is saved in AMPS and is now available for UI)
 @snapend
 
 ---
@@ -57,13 +57,13 @@
 
 
 @snap[south-west span-30]
-@box[bg-orange text-white](5a#sync. response to client, user knows if resolving was successful)
+@box[bg-pink text-white](5a#sync. response to client, user knows if resolving was successful)
 @snapend
 
 @snap[south span-30]
-@box[bg-orange text-white](5b#StopTrade service is notified via HTTP)
+@box[bg-pink text-white](5b#StopTrade service is notified via HTTP)
 @snapend
 
 @snap[south-east span-30]
-@box[bg-orange text-white](5c#stoptrade message is removed from AMPS)
+@box[bg-pink text-white](5c#stoptrade message is removed from AMPS)
 @snapend

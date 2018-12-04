@@ -50,11 +50,11 @@ SBL Example
 
 ---
 
-![](img/akka-ok-status.svg)
+![](img/akka-ok-status.png)
 
 ---
 
-![](img/akka-error-status.svg)
+![](img/akka-error-status.png)
 
 ---
 

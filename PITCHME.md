@@ -28,9 +28,6 @@ Up to target machine to know what and how resubmission should work
 ---
 
 @box[bg-orange text-white rounded demo-box-pad fragment](StopTrades is something rare - keep it simple!)
-
----
-
 @box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---
@@ -64,8 +61,8 @@ Due to this structure it is easy to change the format of the payload without bre
 
 #### EventType
 
-`New` - new stop trade, will be put in store
-`Delete` - command to remove the stop trade message from the store
+- `New` - new stop trade, will be put in store
+- `Delete` - command to remove the stop trade message from the store
 
 ---
 

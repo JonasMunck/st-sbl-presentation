@@ -91,7 +91,7 @@ Due to this structure it is easy to change the format of the payload without bre
 {
   "source": "SBL STATE APPLIER",
   "sourceId": 8912,
-  "groupPath": ["18120300001N", 8172],
+  "groupPath": ["18120300001N", 8912],
   "commonValues": {
     "RefNo": "18120300003N"
   },
@@ -104,14 +104,57 @@ Due to this structure it is easy to change the format of the payload without bre
     }
   ]
 }
+```
 
 @[2-3](index keys)
 @[4-8](UI structure enhancement)
 @[9-15](resolve)
-```
 
 ---
 
+#### GroupPath
+
+Information for UI to build tree-like relations between (independent) messages.
+
+@snap[west]
+
+```json
+{
+  "foo": "bar"
+}
+```
+
+@snapend
+
+@snap[east]
+
+```text
+A
+|- 1
+|- 2
+B
+|- 1
+```
+
+@[1-2],
+@[1-2,4-5]
+@[1-5]
+
+@snapend
+
+
+---
+
+### Payload - `Delete`
+
+```json
+{
+  "source": "SBL STATE APPLIER",
+  "sourceId": 8912
+}
+```
+
+---
 ### Outline
 
 - Architecture and responsibilities

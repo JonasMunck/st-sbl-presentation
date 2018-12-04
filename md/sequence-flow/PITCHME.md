@@ -37,15 +37,15 @@
 @snapend
 
 
-@snap[south-west span-45]
+@snap[south-west span-30]
 @box[bg-orange text-white](4a#Client revokes message)
 @snapend
 
-@snap[south span-45]
+@snap[south span-30]
 @box[bg-orange text-white](4b#Target service retrieves original message)
 @snapend
 
-@snap[south-east span-45]
+@snap[south-east span-30]
 @box[bg-orange text-white](4c#Merge logic is applied)
 @snapend
 
@@ -56,14 +56,14 @@
 @snapend
 
 
-@snap[south-west span-45]
+@snap[south-west span-30]
 @box[bg-orange text-white](5a#sync. response to client, user knows if resolving was successful)
 @snapend
 
-@snap[south span-45]
+@snap[south span-30]
 @box[bg-orange text-white](5b#StopTrade service is notified via HTTP)
 @snapend
 
-@snap[south-east span-45]
+@snap[south-east span-30]
 @box[bg-orange text-white](5c#stoptrade message is removed from AMPS)
 @snapend

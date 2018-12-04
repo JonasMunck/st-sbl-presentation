@@ -215,11 +215,11 @@ Although mature, this is still work in progress.
 
 ---
 
-@snap[north-west]
-@size[1.5em](ADR Goals)
-@snapend
+@title[ADR Goals]
 
-@ul[tight-bullets]
+@snap[midpoint tight-bullets]
+
+@ul
 - @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades. (For example Equilend, ION STP etc.))
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)
@@ -228,9 +228,9 @@ Although mature, this is still work in progress.
 - @size[0.5em](AMPS is used as an API to get stopped trades)
 - @size[0.5em](We reuse existing Stopped Trades window in order to not confuse users with yet another stopped trades window)
 @ulend
----
 
 
+@snapend
 
 ---
 

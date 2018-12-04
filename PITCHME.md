@@ -28,14 +28,15 @@ Up to target machine to know what and how resubmission should work
 ---
 
 @box[bg-orange text-white rounded demo-box-pad fragment](StopTrades is something rare - keep it simple!)
+
 @box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---
 
 Up to target machine to decide if service should
 
-- stop process messages completely (_stop_)
-- stop a branch of messages (_branch_)
+- stop process messages completely (_service crash_)
+- stop a branch of messages (_grouped error management_)
 - continue as normal (_pass through_)
 
 ---
@@ -44,7 +45,7 @@ SBL Example
 
 ---
 
-### Payload
+### Stop Trade Carrier
 
 
  ```json
@@ -88,11 +89,11 @@ Due to this structure it is easy to change the format of the payload without bre
 {
   "source": "SBL STATE APPLIER",
   "sourceId": 8912,
+  "errorMessage": "Settlement is not implemented",
   "groupPath": ["18120300001N", 8912],
   "commonValues": {
     "refNo": "18120300003N"
   },
-  "errorMessage": "Settlement is not implemented",
   "editableFields": [
     {
       "name": "Volume",
@@ -103,7 +104,7 @@ Due to this structure it is easy to change the format of the payload without bre
 }
 ```
 
-@[2-3](index keys)
+@[2-3](index keys - required)
 @[4-8](UI structure enhancement)
 @[9-15](resolve)
 
@@ -168,6 +169,10 @@ which will override values on the resolved message in the target machine.
 @[10-13](resolved payload)
 
 ---
+
+#### EditableFields
+
+For which type or error should a specific field be editable?
 
 ### Payload - `Delete`
 

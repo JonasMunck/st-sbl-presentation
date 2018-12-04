@@ -25,7 +25,7 @@
 @snap[east high-level bullets]
 
 @ul[](false)
- - Consumes from kafka
+- Consumes from kafka
 - Stores messages in AMPS
 - Has HTTP API so that client can list, query and delete stop trade messages
  @ulend
@@ -45,7 +45,7 @@
 @snap[east high-level bullets]
 
 @ul[](false)
- - Display stop trade messages in a "good way"
+- Display stop trade messages in a "good way"
 - Allows user to edit and resolve stop trade messages
  @ulend
 

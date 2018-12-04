@@ -2,7 +2,7 @@
 
 An Implementation
 
----?image=img/stopped-trades-high-level.png&position=center&size=50% 50%
+---?image=img/stopped-trades-high-level.png&position=center&size=60%
 
 ---?include=md/sequence-flow/PITCHME.md
 

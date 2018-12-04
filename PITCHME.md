@@ -114,17 +114,11 @@ Due to this structure it is easy to change the format of the payload without bre
 Information for UI to build tree-like relations between (independent) messages.
 
 ```text
-groupPath: ["A", "1"]
-groupPath: ["B", "2"]
-groupPath: ["A", "3"]
-```
-
-```text
 A
-|- 1
-|- 3
+|- 1          groupPath: ["A", "1"]
+|- 3          groupPath: ["A", "3"]
 B
-|- 2
+|- 2          groupPath: ["B", "2"]
 ```
 
 @[1-2],

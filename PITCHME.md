@@ -5,7 +5,7 @@ An Implementation
 
 ---
 
-+++?image=img/stop-trades-sequence-flow.png&size=contain
++++?image=img/stop-trades-sequence-flow.png&postition=top&size=50% 100%
 
 ---
 

@@ -14,11 +14,11 @@
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
-@snap[south-west]
+@snap[south-west span-45]
 @box[bg-pink](2a#StopTrade Message is published on kafka)
 @snapend
 
-@snap[south-east]
+@snap[south-east span-45 fragment]
 @box[bg-orange](2b#Original message in stored in target services domain)
 @snapend
 

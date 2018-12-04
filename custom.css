@@ -1,5 +1,6 @@
 .seq-flow img {
     height: 100%;
+    width: 230%;
     border: none !important;
     box-shadow: none !important;
 }

@@ -184,7 +184,9 @@ which will override values on the resolved message in the target machine.
 
 #### EditableFields
 
-For which type or error should a specific field be editable?
+For which type of error should a specific field be editable?
+
+---
 
 ### Payload - `Delete`
 

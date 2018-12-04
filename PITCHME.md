@@ -2,14 +2,9 @@
 
 An Implementation
 
-
----
-
----?image=img/stop-trades-sequence-flow.png&postition=top&size=80% 50%
+---?image=img/stopped-trades-high-level.png
 
 ---?include=md/sequence-flow/PITCHME.md
-
----
 
 #### Generate Message
 

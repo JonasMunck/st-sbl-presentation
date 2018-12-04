@@ -182,9 +182,9 @@ plain key-value dict to show more info / provide better context to user.
 @[6-8](stop trade payload)
 @[10-13](resolved payload)
 
----
+---?color=linear-gradient(to right, #c02425, #f0cb35)
 
-#### EditableFields
+#### EditableFields - considerations
 
 For which type of error should a specific field be editable?
 

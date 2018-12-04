@@ -16,8 +16,8 @@
 
 @snap[south]
 
-2a. StopTrade Message is published on kafka
-2b. Original message in stored in target services domain
+- StopTrade Message is published on kafka
+- Original message in stored in target services domain
 
 @snapend
 

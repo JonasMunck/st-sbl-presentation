@@ -4,7 +4,9 @@ An Implementation
 
 ---
 
+@snap[midpoint seq-flow]
 ![](img/sbl-nodes/node1.png)
+@snapend
 
 ---
 

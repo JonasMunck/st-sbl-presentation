@@ -16,6 +16,8 @@ StopTrade message lifecycle
 
 ---?include=md/sequence-flow/PITCHME.md
 
+---
+
 @title[Considerations from a target machine perspective]
 
 - Amount of errors sent to stop trades

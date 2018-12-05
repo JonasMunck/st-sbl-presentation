@@ -197,6 +197,21 @@ See ADR 008
 
 ---
 
+@ul
+ - `source` - same for all messages produced by a service. Name must be unique
+ - `sourceId` - unique for each message produced by a service.
+ - `source` + `sourceId` - unique for each message thoughout entire BETS.
+@ulend
+
+```json
+{
+  "source": "SBL STATE APPLIER",
+  "sourceId": 8912,
+}
+```
+
+---
+
 #### `groupPath`
 
 Information for UI to build tree-like relations between (independent) messages.

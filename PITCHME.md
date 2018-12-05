@@ -29,7 +29,7 @@ StopTrade message lifecycle
 
 ---
 
-### Up to target machine to know what and how resubmission should work
+##### Up to target machine to know what and how resubmission should work
 
 @ul
 - Simple cases are simple

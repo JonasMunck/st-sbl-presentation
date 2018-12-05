@@ -156,7 +156,7 @@ Due to this structure it is easy to change the format of the payload without bre
 
 ---
 
-#### Metadata
+#### `metadata`
 
 ```json
 {
@@ -170,7 +170,7 @@ See ADR 008
 
 ---
 
-### Payload - `New`
+### `payload` - `New`
 
 ```json
 {
@@ -197,7 +197,7 @@ See ADR 008
 
 ---
 
-#### GroupPath
+#### `groupPath`
 
 Information for UI to build tree-like relations between (independent) messages.
 
@@ -216,8 +216,8 @@ B
 
 ---
 
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node5.png)
+@snap[north seq-flow]
+![](img/sbl-nodes/node8.png)
 @snapend
 
 ```text
@@ -226,11 +226,14 @@ B: ["A", 2]
 C: ["C", 3]
 D: ["A", 4]
 E: ["C", 5]
+F: ["F", 6]
+G: ["F", 7]
+H: ["A", 8]
 ```
 
 ---
 
-#### CommonValues
+#### `commonValues`
 
 plain key-value dict to show more info / provide better context to user.
 
@@ -242,7 +245,7 @@ plain key-value dict to show more info / provide better context to user.
 
 ---
 
-#### EditableFields
+#### `editableFields`
 
 @ul
 - Generic way to let user update _specific_ values in stop trade client
@@ -273,13 +276,13 @@ plain key-value dict to show more info / provide better context to user.
 
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
 
-#### EditableFields - considerations
+#### `editableFields` - considerations
 
 For which type of error should a specific field be editable?
 
 ---
 
-### Payload - `Delete`
+### `payload` - `Delete`
 
 ```json
 {
@@ -288,61 +291,3 @@ For which type of error should a specific field be editable?
 }
 ```
 
----
-
-
-```
-{
-  "eventType": "New",
-  "payload": {
-    "resubmitUrl" : "http://y12345/ngt/api/v1/resolve",
-    "source": "SBL StateApplier",
-    "sourceId": "180903123456",
-    "groupPath": ["18120300001N", "18120300003N"],
-    "errorText" : "Settlement is not implemented",
-    "hash" : "=1f345234tf324q6y3t42hwrj8",
-    "commonValues" : {
-      "counterpart": "NYBK",
-      "instrument" : "DKTEST000001",
-    },
-    "editableFields": [
-      {
-        "name": "Volume",
-        "fieldType": "double",
-        "value": "5000"
-      }
-    ]
-  },
-  "metadata":{
-    "correlationId": "23544543-345652-sfe3",
-  }
-}
-```
----
-
-```
-public class RawStopTradeCarrier
-{
-    public StopTradeEventType EventType { get; set; }  // New | Delete
-    public BaseStopTradeMessage Payload { get; set; }
-    public Metadata Metadata { get; set; }
-}
-
-// for Delete commands
-public class BaseStopTradeMessage
-{
-    public string Source { get; set; }
-    public string SourceId { get; set; }
-}
-
-// for New commands
-public class StopTradeMessage : BaseStopTradeMessage
-{
-    public List<string> GroupPath { get; set; }
-    public string ErrorText { get; set; }
-    public Dictionary<string, string> CommonValues { get; set; }
-    public List<FieldInformation> EditableFields { get; set; }
-}
-```
-
----

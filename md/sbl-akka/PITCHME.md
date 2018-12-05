@@ -6,12 +6,6 @@
 ![](img/sbl-nodes/node1.png)
 @snapend
 
-```json
-{
-    "foobar": "spam"
-}
-```
-
 ---
 
 @snap[midpoint seq-flow]
@@ -35,6 +29,20 @@
 @snap[midpoint seq-flow]
 ![](img/sbl-nodes/node5.png)
 @snapend
+
+---
+
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node5.png)
+@snapend
+
+```text
+A: ["A", 1]
+B: ["A", 2]
+C: ["C", 3]
+D: ["A", 4]
+E: ["C", 5]
+```
 
 ---
 

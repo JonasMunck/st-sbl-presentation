@@ -18,9 +18,8 @@ Although mature, this is still work in progress.
 
 ---
 
-ADR Goals
 
----
+#### ADR Goals
 
 @snap[tight-bullets]
 

@@ -63,11 +63,17 @@ StopTrade message lifecycle
 
 ---
 
-#### Amount of errors sent to stop trades
+@snap[north-east]
+Amount of errors sent
+@snapend
 
 @box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
 
 ---
+
+@snap[north-east]
+Amount of errors sent
+@snapend
 
 ##### Up to target machine to know what and how resubmission should work
 
@@ -78,7 +84,10 @@ StopTrade message lifecycle
 
 ---
 
-#### Produce error messages
+@snap[north-east]
+Produce good error messages
+@snapend
+
 
 @ul
 - Few details will make it difficult for user

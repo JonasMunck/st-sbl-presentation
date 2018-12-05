@@ -41,9 +41,6 @@ Will use SBL as an example
 
 ---?include=md/service-roles/PITCHME.md
 
----
-
-StopTrade message lifecycle
 
 ---?include=md/sequence-flow/PITCHME.md
 

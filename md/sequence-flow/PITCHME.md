@@ -1,3 +1,7 @@
+StopTrade message lifecycle
+
++++
+
 @snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
@@ -6,7 +10,7 @@
 @box[bg-orange text-white](1#Message hits target machine and it generates a stop trade)
 @snapend
 
----
++++
 
 @snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
@@ -20,7 +24,7 @@
 @box[bg-orange text-white](2b#Original message in stored in target services domain)
 @snapend
 
----
++++
 
 @snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
@@ -30,7 +34,7 @@
 @box[bg-green text-white](3#StopTrade Message is saved in AMPS and is now available for UI)
 @snapend
 
----
++++
 
 @snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)
@@ -49,7 +53,7 @@
 @box[bg-orange text-white](4c#Merge logic is applied)
 @snapend
 
----
++++
 
 @snap[north seq-flow]
 ![seq-flow](img/stop-trades-sequence-flow.png)

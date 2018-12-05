@@ -2,7 +2,7 @@
 
 ---
 
-@snap[west seq-flow]
+@snap[midpoint seq-flow]
 ![](img/sbl-nodes/node1.png)
 @snapend
 
@@ -30,6 +30,23 @@
 ![](img/sbl-nodes/node5.png)
 @snapend
 
+---
+
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node6.png)
+@snapend
+
+---
+
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node7.png)
+@snapend
+
+---
+
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node8.png)
+@snapend
 
 ---
 

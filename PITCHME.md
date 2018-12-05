@@ -62,13 +62,13 @@ SBL Example
 ### Stop Trade Carrier
 
 
- ```json
+```json
 {
   "eventType": "New",
   "payload": { },
   "metadata": { }
 }
- ```
+```
 
 Due to this structure it is easy to change the format of the payload without breaking stuff.
 
@@ -164,16 +164,16 @@ plain key-value dict to show more info / provide better context to user.
 
 ```json
 {
-  "price": 100,
+  "price": 100,    /* original message */
   "volume": 5000
 }
 
 {
-  "volume": 4500
+  "volume": 4500  /* from resolved stop trade */
 }
 
 {
-  "price": 100,
+  "price": 100,   /* updated message */
   "volume": 4500
 }
 ```
@@ -215,9 +215,11 @@ Although mature, this is still work in progress.
 
 ---
 
-@title[ADR Goals]
+ADR Goals
 
-@snap[midpoint tight-bullets]
+---
+
+@snap[tight-bullets]
 
 @ul
 - @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades. (For example Equilend, ION STP etc.))

@@ -145,7 +145,7 @@ stop trade UI should not be able to do the same things as the originating system
 **"Circuit Break" strategy**
 @snapend
 
-<h3 class="fragment">Up to target machine to decide if service should</h3>
+<h3 class="fragment">Up to target machine to decide if service should</h>
 
 @ul
 - stop process messages completely (_service crash_)
@@ -164,7 +164,8 @@ First quarter done. Questions?
 
 # Demo time
 
----
+---?include=md/sbl-101/PITCHME.md
+
 
 ### Stop Trade Carrier
 

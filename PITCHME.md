@@ -64,7 +64,7 @@ StopTrade message lifecycle
 ---
 
 @snap[north-east]
-Amount of errors sent
+**Amount of errors sent**
 @snapend
 
 @box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
@@ -72,7 +72,7 @@ Amount of errors sent
 ---
 
 @snap[north-east]
-Amount of errors sent
+**Amount of errors sent**
 @snapend
 
 ##### Up to target machine to know what and how resubmission should work
@@ -85,7 +85,7 @@ Amount of errors sent
 ---
 
 @snap[north-east]
-Produce good error messages
+**Produce good error messages**
 @snapend
 
 
@@ -101,7 +101,9 @@ Note:
 
 ---
 
-#### Level of Dynamics
+@snap[north-east]
+**Level of Dynamics**
+@snapend
 
 @ul
 - Stop trade UI should be easy (no `new trade` window)
@@ -116,7 +118,9 @@ stop trade UI should not be able to do the same things as the originating system
 
 ---
 
-#### "Circuit Break" strategy
+@snap[north-east]
+**"Circuit Break" strategy**
+@snapend
 
 Up to target machine to decide if service should
 

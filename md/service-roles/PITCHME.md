@@ -5,6 +5,8 @@
 
 Note:
 
+Don't go into details, just explain the components here to get an overview.
+
 Stop trade as implemented in SBL, the async / sync strategy.
 async / async would not involve http response check after resolving stop trade message.
 
@@ -28,7 +30,6 @@ async / async would not involve http response check after resolving stop trade m
 ![](img/stopped-trades-high-level.png)
 @snapend
 
-Note: Don't go into details, just explain the components here to get an overview.
 
 +++
 

@@ -41,7 +41,7 @@ Although mature, this is still work in progress.
 
 Note:
 
-2. Bounded context - stop trade does not know the underlying error, just the stoptrade message.
+bullet 2: Bounded context - stop trade does not know the underlying error, just the stoptrade message.
 
 ---
 

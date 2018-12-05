@@ -145,7 +145,7 @@ stop trade UI should not be able to do the same things as the originating system
 **"Circuit Break" strategy**
 @snapend
 
-<h3 class="fragment">Up to target machine to decide if service should</h3>
+<h5 class="fragment">Up to target machine to decide if service should</h5>
 
 @ul
 - stop process messages completely (_service crash_)

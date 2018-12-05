@@ -21,5 +21,9 @@
 
 ![](img/sbl101.png)
 
+<div class="fragment">
+    If we recieve event before backoffice completed -> stop trade
+</div>
+
 +++
 

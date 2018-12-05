@@ -18,7 +18,7 @@ StopTrade message lifecycle
 ---
 @title[Considerations from a target machine perspective]
 
-## A Producers Considerations
+### A Producers Considerations
 
 - Amount of errors sent to stop trades
 - How to produce a good, meaningful, error message
@@ -29,7 +29,7 @@ StopTrade message lifecycle
 
 ---
 
-Up to target machine to know what and how resubmission should work
+### Up to target machine to know what and how resubmission should work
 
 @ul
 - Simple cases are simple
@@ -38,8 +38,9 @@ Up to target machine to know what and how resubmission should work
 
 ---
 
-@box[bg-orange text-white rounded demo-box-pad fragment](StopTrades is something rare - keep it simple!)
-
+@box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
+<br/>
+<br/>
 @box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---

@@ -7,7 +7,7 @@ The Lifecycle of a StopTrade Message
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
-@snap[south]
+@snap[south fragment]
 @box[bg-orange text-white](1#Message hits target machine and it generates a stop trade)
 @snapend
 

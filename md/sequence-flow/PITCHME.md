@@ -1,5 +1,6 @@
-StopTrade message lifecycle
+---color=
 
+The Lifecycle of a StopTrade Message
 +++
 
 @snap[north seq-flow]

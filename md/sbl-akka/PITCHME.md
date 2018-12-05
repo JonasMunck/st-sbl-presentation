@@ -56,5 +56,3 @@
 +++
 
 ![](img/akka-error-status.png)
-
-+++

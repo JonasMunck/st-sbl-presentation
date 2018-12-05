@@ -1,4 +1,7 @@
----?image=img/stopped-trades-high-level.png&position=center&size=60%
+
+### Involved services and their roles
+
++++?image=img/stopped-trades-high-level.png&position=center&size=60%
 
 +++
 

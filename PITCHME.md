@@ -36,9 +36,6 @@ Although mature, this is still work in progress.
 ---
 
 
-Will use SBL as an example
-
-
 ---?include=md/service-roles/PITCHME.md
 
 

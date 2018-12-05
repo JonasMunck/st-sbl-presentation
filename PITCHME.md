@@ -149,7 +149,7 @@ Due to this structure it is easy to change the format of the payload without bre
 
 ---
 
-#### EventType
+#### `eventType`
 
 - `New` - new stop trade, will be put in store
 - `Delete` - remove stop trade message from the store

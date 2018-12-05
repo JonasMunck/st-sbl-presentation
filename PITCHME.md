@@ -8,7 +8,7 @@ An Implementation
 Outline
 @snapend
 
-@snap[east text-white span-45]
+@snap[east text-white span-70]
 @ol
 - Architecture and responsibilities
 - Creating messages

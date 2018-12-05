@@ -54,7 +54,7 @@ Note:
 #### Level of Dynamics
 
 @ul
-- Stop trade UI should be easey (no `new trade` window)
+- Stop trade UI should be easy (no `new trade` window)
 - The user should only be able to do trivial changes.
 - How do you know what fields a user might be able to edit?
 - Each error case must be thought through and evaluated -> lots of work.
@@ -63,6 +63,8 @@ Note:
 Note:
 
 stop trade UI should not be able to do the same things as the originating system
+
+---
 
 #### "Circuit Break" strategy
 

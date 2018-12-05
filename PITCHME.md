@@ -52,12 +52,20 @@ StopTrade message lifecycle
 
 ### A Producers Considerations
 
+@ul
 - Amount of errors sent to stop trades
 - How to produce a good, meaningful, error message
 - Level of dynamics
   - editable fields
   - common fields
 - Circuit break strategy
+@ulend
+
+---
+
+#### Amount of errors sent to stop trades
+
+@box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
 
 ---
 
@@ -67,13 +75,6 @@ StopTrade message lifecycle
 - Simple cases are simple
 - Complex editable stop trades will require quite some code
 @@ulend
-
----
-
-@box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
-<br/>
-<br/>
-@box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---
 

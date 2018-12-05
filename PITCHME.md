@@ -121,7 +121,7 @@ Note:
 @ul
 - Stop trade UI should be easy (no `new trade` window)
 - The user should only be able to do trivial changes.
-- How do you know what fields a user might be able to edit?
+- How do you know what field a user might want to edit?
 - Each error case must be thought through and evaluated -> lots of work.
 @ulend
 

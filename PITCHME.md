@@ -4,46 +4,7 @@ An Implementation
 
 ---
 
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node1.png)
-@snapend
 
----
-
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node2.png)
-@snapend
-
----
-
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node3.png)
-@snapend
-
----
-
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node4.png)
-@snapend
-
----
-
-@snap[midpoint seq-flow]
-![](img/sbl-nodes/node5.png)
-@snapend
-
----
-
-
----?image=img/sbl-nodes/node1.png&position=center&size=80%
-
----?image=img/sbl-nodes/node2.png&position=center&size=80%
-
----?image=img/sbl-nodes/node3.png&position=center&size=80%
-
----?image=img/sbl-nodes/node4.png&position=center&size=80%
-
----?image=img/sbl-nodes/node5.png&position=center&size=80%
 
 
 ---?image=img/stopped-trades-high-level.png&position=center&size=60%
@@ -106,19 +67,8 @@ Up to target machine to decide if service should
 - stop a branch of messages (_grouped error management_)
 - continue as normal (_pass through_)
 
----
 
-SBL Example
-
----
-
-![](img/akka-ok-status.png)
-
----
-
-![](img/akka-error-status.png)
-
----
+---?include=md/sbl-akka/PITCHME.md
 
 
 ### Stop Trade Carrier

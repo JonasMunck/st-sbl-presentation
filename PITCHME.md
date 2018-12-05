@@ -16,6 +16,10 @@ Outline
 - Resolving messages
 @olend
 
+Note:
+
+Client will be shown in demos, not a part in the slideshow
+
 ---
 
 Although mature, this is still work in progress.
@@ -34,7 +38,7 @@ Although mature, this is still work in progress.
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)
 - @size[0.5em](The stop trade message will have information about which API can be used to resubmit it and what fields can be modified)
-- @size[0.5em](The Producer has API that will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
+- @size[0.5em](The Producer has an API that will accept stopped trades, and synchronously or asynchronously respond the progress and broadcast the updated state of the stopped trade.)
 @ulend
 
 @snapend
@@ -353,3 +357,4 @@ For which type of error should a specific field be editable?
 }
 ```
 
+---?include=md/resubmit/PITCHME.md

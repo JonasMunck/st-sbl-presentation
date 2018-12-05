@@ -25,15 +25,12 @@ ADR Goals
 @snap[tight-bullets]
 
 @ul
-- @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades. (For example Equilend, ION STP etc.))
+- @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades)
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)
 - @size[0.5em](The broadcast stopped trade will have information about which API can be used to resubmit it and what fields can be modified)
 - @size[0.5em](API will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
-- @size[0.5em](AMPS is used as an API to get stopped trades)
-- @size[0.5em](We reuse existing Stopped Trades window in order to not confuse users with yet another stopped trades window)
 @ulend
-
 
 @snapend
 

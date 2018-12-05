@@ -18,9 +18,13 @@ StopTrade message lifecycle
 ---
 @title[Considerations from a target machine perspective]
 
+## A Producers Considerations
+
 - Amount of errors sent to stop trades
 - How to produce a good, meaningful, error message
-- Level of dynamics (editable fields, common fields)
+- Level of dynamics
+  - editable fields
+  - common fields
 - Circuit break strategy
 
 ---

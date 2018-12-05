@@ -122,11 +122,13 @@ stop trade UI should not be able to do the same things as the originating system
 **"Circuit Break" strategy**
 @snapend
 
-Up to target machine to decide if service should
+###### Up to target machine to decide if service should
 
+@ul
 - stop process messages completely (_service crash_)
 - stop a branch of messages (_grouped error management_)
 - continue as normal (_pass through_)
+@ulend
 
 
 ---?include=md/sbl-akka/PITCHME.md

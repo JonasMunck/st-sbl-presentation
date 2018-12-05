@@ -61,3 +61,7 @@
 @snap[west high-level]
 ![](img/stopped-trades-high-level.png)
 @snapend
+
+Note:
+
+Client could implement SuperUser interface with even more power.

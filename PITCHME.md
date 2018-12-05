@@ -3,12 +3,18 @@
 An Implementation
 
 ---
-### Outline
 
+@snap[west text-orange span-50]
+Outline
+@snapend
+
+@snap[east text-white span-45]
+@ol
 - Architecture and responsibilities
 - Creating messages
 - The StopTrade Client
 - Resolving messages
+@olend
 
 ---
 

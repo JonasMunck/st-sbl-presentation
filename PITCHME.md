@@ -35,6 +35,15 @@ Although mature, this is still work in progress.
 
 ---
 
+@ul
+ - **Producer**
+   - produces meaningful stoptrades
+   - handles resubmitts
+ - **StopTrade**
+   - store
+   - views
+   - take actions on
+@ulend
 
 ---?include=md/service-roles/PITCHME.md
 
@@ -139,7 +148,7 @@ stop trade UI should not be able to do the same things as the originating system
 }
 ```
 
-Due to this structure it is easy to change the format of the payload without breaking stuff.
+With this structure it is easy to change the format of the payload without breaking stuff.
 
 ---
 

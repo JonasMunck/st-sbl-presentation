@@ -1,3 +1,7 @@
+---?image=img/stopped-trades-high-level.png&position=center&size=60%
+
++++
+
 @snap[north-east]
 @size[1.2em](Producer)
 @snapend
@@ -16,7 +20,7 @@
 ![](img/stopped-trades-high-level.png)
 @snapend
 
----
++++
 
 @snap[north-east]
 @size[1.2em](StopTrade Service)
@@ -36,7 +40,7 @@
 ![](img/stopped-trades-high-level.png)
 @snapend
 
----
++++
 
 @snap[north-east]
 @size[1.2em](StopTrade Client)

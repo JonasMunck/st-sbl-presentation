@@ -6,9 +6,6 @@ An Implementation
 
 Will use SBL as an example
 
----?image=img/stopped-trades-high-level.png&position=center&size=60%
-
----
 
 ---?include=md/service-roles/PITCHME.md
 

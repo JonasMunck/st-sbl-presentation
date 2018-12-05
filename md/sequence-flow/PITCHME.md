@@ -47,11 +47,11 @@ The Lifecycle of a StopTrade Message
 @snapend
 
 @snap[south span-30]
-@box[bg-orange text-white](4b#Target service retrieves original message)
+@box[bg-orange text-white](4b#Producer service retrieves original message)
 @snapend
 
 @snap[south-east span-30]
-@box[bg-orange text-white](4c#Merge logic is applied)
+@box[bg-orange text-white](4c#edit logic is applied)
 @snapend
 
 +++

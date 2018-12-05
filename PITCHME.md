@@ -34,14 +34,16 @@ Although mature, this is still work in progress.
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)
 - @size[0.5em](The stop trade message will have information about which API can be used to resubmit it and what fields can be modified)
-- @size[0.5em](Producing service has API that will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
+- @size[0.5em](The Producer has API that will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
 @ulend
 
 @snapend
 
 Note:
 
-bullet 2: Bounded context - stop trade does not know the underlying error, just the stoptrade message.
+bullet 2: Bounded context - stop trade does not know the format of the underlying error, just the stoptrade message.
+
+bullet 4: aim to have generic messages
 
 ---
 
@@ -77,13 +79,9 @@ Two roles
 - Circuit break strategy
 @ulend
 
----
+Note:
 
-@snap[north-east]
-**Amount of errors sent**
-@snapend
-
-@box[bg-orange text-white rounded demo-box-pad](StopTrades is something rare - keep it simple!)
+We will go through the topics in detail
 
 ---
 
@@ -91,7 +89,15 @@ Two roles
 **Amount of errors sent**
 @snapend
 
-##### Up to target machine to know what and how resubmission should work
+@box[bg-orange text-white rounded demo-box-pad fragment](StopTrades is something rare - keep it simple!)
+
+---
+
+@snap[north-east]
+**Amount of errors sent**
+@snapend
+
+##### Up to Producer to know what and how resubmission should work
 
 @ul
 - Simple cases are simple
@@ -139,7 +145,7 @@ stop trade UI should not be able to do the same things as the originating system
 **"Circuit Break" strategy**
 @snapend
 
-###### Up to target machine to decide if service should
+<h3 class="fragment">Up to target machine to decide if service should</h3>
 
 @ul
 - stop process messages completely (_service crash_)

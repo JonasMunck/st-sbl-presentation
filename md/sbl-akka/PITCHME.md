@@ -6,15 +6,11 @@
 ![](img/sbl-nodes/node1.png)
 @snapend
 
-@snap[east seq-flow]
-
 ```json
 {
     "foobar": "spam"
 }
 ```
-
-@snapend
 
 ---
 

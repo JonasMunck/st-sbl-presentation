@@ -44,7 +44,10 @@ Up to target machine to know what and how resubmission should work
 - many details will make it difficult for you :)
 @@ulend
 
-@note[highlight the differences and that it is not obvious that you should go all in (in either of the directions. It is hard to foresee what _that_ user needs to know when she is viewing stop trade messages.)]
+Note:
+
+- highlight the differences and that it is not obvious that you should go all in (in either of the directions.
+- It is hard to foresee what _that_ user needs to know when she is viewing stop trade messages.)]
 
 ---
 
@@ -57,7 +60,9 @@ Up to target machine to know what and how resubmission should work
 - Each error case must be thought through and evaluated -> lots of work.
 @ulend
 
-@note[stop trade UI should not be able to do the same things as the originating system.]
+Note:
+
+stop trade UI should not be able to do the same things as the originating system
 
 #### "Circuit Break" strategy
 
@@ -150,6 +155,20 @@ B
 @[1-2,4-5]
 @[1-5]
 
+
+---
+
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node5.png)
+@snapend
+
+```text
+A: ["A", 1]
+B: ["A", 2]
+C: ["C", 3]
+D: ["A", 4]
+E: ["C", 5]
+```
 
 ---
 

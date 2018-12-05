@@ -41,6 +41,10 @@ Although mature, this is still work in progress.
 
 ---
 
+@snap[north-east]
+Two roles
+@snapend
+
 @ul
 - **Producer**
   - produces meaningful stoptrades

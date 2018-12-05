@@ -36,13 +36,13 @@ Although mature, this is still work in progress.
 ---
 
 @ul
- - **Producer**
-   - produces meaningful stoptrades
-   - handles resubmitts
- - **StopTrade**
-   - store
-   - views
-   - take actions on
+- **Producer**
+  - produces meaningful stoptrades
+  - handles resubmitts
+- **StopTrade**
+  - store
+  - views
+  - take actions on
 @ulend
 
 ---?include=md/service-roles/PITCHME.md

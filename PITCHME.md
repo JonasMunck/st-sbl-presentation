@@ -4,23 +4,23 @@ An Implementation
 
 ---
 
-![img/sbl-nodes/node1.png]
+![](img/sbl-nodes/node1.png)
 
 ---
 
-![img/sbl-nodes/node2.png]
+![](img/sbl-nodes/node2.png)
 
 ---
 
-![img/sbl-nodes/node3.png]
+![](img/sbl-nodes/node3.png)
 
 ---
 
-![img/sbl-nodes/node4.png]
+![](img/sbl-nodes/node4.png)
 
 ---
 
-![img/sbl-nodes/node5.png]
+![](img/sbl-nodes/node5.png)
 
 ---
 

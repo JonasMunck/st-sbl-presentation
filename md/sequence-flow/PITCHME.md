@@ -1,4 +1,4 @@
----color=
+---
 
 The Lifecycle of a StopTrade Message
 +++

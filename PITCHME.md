@@ -147,6 +147,7 @@ stop trade UI should not be able to do the same things as the originating system
 
 ---?include=md/sbl-akka/PITCHME.md
 
+---
 
 ### Stop Trade Carrier
 

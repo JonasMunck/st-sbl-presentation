@@ -72,5 +72,3 @@ The Lifecycle of a StopTrade Message
 @snap[south-east span-30]
 @box[bg-pink text-white](5c#stoptrade message is removed from AMPS)
 @snapend
-
----

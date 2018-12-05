@@ -2,20 +2,28 @@
 
 An Implementation
 
----?include=md/service-roles/PITCHME.md
+
+---?image=img/sbl-nodes/node1.png&position=center&size=80%
+
+---?image=img/sbl-nodes/node2.png&position=center&size=80%
+
+---?image=img/sbl-nodes/node3.png&position=center&size=80%
+
+---?image=img/sbl-nodes/node4.png&position=center&size=80%
+
+---?image=img/sbl-nodes/node5.png&position=center&size=80%
+
 
 ---?image=img/stopped-trades-high-level.png&position=center&size=60%
 
+---?include=md/service-roles/PITCHME.md
+
 ---?include=md/sequence-flow/PITCHME.md
 
-#### Generate Message
-
----
-
-Considerations from a target machine perspective
+@title[Considerations from a target machine perspective]
 
 - Amount of errors sent to stop trades
-- How to produce a good, meaningful - error message
+- How to produce a good, meaningful, error message
 - Level of dynamics (editable fields, common fields)
 - Circuit break strategy
 
@@ -35,6 +43,28 @@ Up to target machine to know what and how resubmission should work
 @box[bg-orange text-white rounded demo-box-pad fragment](One message per error type)
 
 ---
+
+#### Produce error messages
+
+@ul
+- Few details will make it difficult for user
+- many details will make it difficult for you :)
+@@ulend
+
+@note[highlight the differences and that it is not obvious that you should go all in (in either of the directions. It is hard to foresee what _that_ user needs to know when she is viewing stop trade messages.)]
+
+---
+
+#### Level of Dynamics
+
+@ul
+- Stop trade UI should be easey (no `new trade` window)
+- The user should only be able to do trivial changes.
+- How do you know what fields a user might be able to edit?
+- Each error case must be thought through and evaluated -> lots of work.
+@ulend
+
+@note[stop trade UI should not be able to do the same things as the originating system.]
 
 #### "Circuit Break" strategy
 

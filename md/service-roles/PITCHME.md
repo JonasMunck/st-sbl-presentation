@@ -3,6 +3,11 @@
 
 +++?image=img/stopped-trades-high-level.png&position=center&size=60%
 
+Note:
+
+Stop trade as implemented in SBL, the async / sync strategy.
+async / async would not involve http response check after resolving stop trade message.
+
 +++
 
 @snap[north-east]
@@ -22,6 +27,8 @@
 @snap[west high-level]
 ![](img/stopped-trades-high-level.png)
 @snapend
+
+Note: Don't go into details, just explain the components here to get an overview.
 
 +++
 

@@ -33,11 +33,15 @@ Although mature, this is still work in progress.
 - @size[0.5em](Each service that can “produce” stopped trade has API that allows resubmission of stopped trades)
 - @size[0.5em](Stopped trade entity is owned by each service that produced it)
 - @size[0.5em](When service stops a trade it will produce a stopped trade that will be broadcast for manual intervention and possibly resubmission back to that service)
-- @size[0.5em](The broadcast stopped trade will have information about which API can be used to resubmit it and what fields can be modified)
-- @size[0.5em](API will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
+- @size[0.5em](The stop trade message will have information about which API can be used to resubmit it and what fields can be modified)
+- @size[0.5em](Producing service has API that will accept stopped trade, synchronously or asynchronously respond that it resubmitted it and broadcast updated state of the stopped trade. This may make the stopped trade not stopped any more)
 @ulend
 
 @snapend
+
+Note:
+
+2. Bounded context - stop trade does not know the underlying error, just the stoptrade message.
 
 ---
 

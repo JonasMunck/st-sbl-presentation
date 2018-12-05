@@ -1,4 +1,4 @@
----color=#ddd
+---?image=img/bg/green.jpg
 
 # Resubmit API
 

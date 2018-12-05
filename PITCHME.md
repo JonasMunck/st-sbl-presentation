@@ -8,6 +8,8 @@ Will use SBL as an example
 
 ---?image=img/stopped-trades-high-level.png&position=center&size=60%
 
+---
+
 ---?include=md/service-roles/PITCHME.md
 
 ---
@@ -17,7 +19,6 @@ StopTrade message lifecycle
 ---?include=md/sequence-flow/PITCHME.md
 
 ---
-
 @title[Considerations from a target machine perspective]
 
 - Amount of errors sent to stop trades

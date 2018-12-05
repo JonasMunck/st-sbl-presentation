@@ -1,5 +1,19 @@
-@snap[midpoint seq-flow]
+## SBL Example
+
+---
+
+@snap[west seq-flow]
 ![](img/sbl-nodes/node1.png)
+@snapend
+
+@snap[east seq-flow]
+
+```json
+{
+    "foobar": "spam"
+}
+```
+
 @snapend
 
 ---
@@ -28,9 +42,6 @@
 
 ---
 
-SBL Example
-
----
 
 ![](img/akka-ok-status.png)
 

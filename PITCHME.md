@@ -2,7 +2,7 @@
 
 An Implementation
 
----?image=img/bg/green.jpg&position=right&size=50% 100%
+---?image=img/bg/green.jpg&position=right&size=70% 100%
 
 @snap[west text-orange span-50]
 Outline

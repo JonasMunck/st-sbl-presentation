@@ -42,15 +42,15 @@ The Lifecycle of a StopTrade Message
 @snapend
 
 
-@snap[south-west span-30]
+@snap[south-west span-30 fragment]
 @box[bg-orange text-white](4a#Client tries to resolve message)
 @snapend
 
-@snap[south span-30]
+@snap[south span-30 fragment]
 @box[bg-orange text-white](4b#Producer service retrieves original message)
 @snapend
 
-@snap[south-east span-30]
+@snap[south-east span-30 fragment]
 @box[bg-orange text-white](4c#edit logic is applied)
 @snapend
 
@@ -65,10 +65,10 @@ The Lifecycle of a StopTrade Message
 @box[bg-pink text-white](5a#sync. response to client, user knows if resolving was successful)
 @snapend
 
-@snap[south span-30]
+@snap[south span-30 fragment]
 @box[bg-pink text-white](5b#StopTrade service is notified via HTTP)
 @snapend
 
-@snap[south-east span-30]
+@snap[south-east span-30 fragment]
 @box[bg-pink text-white](5c#stoptrade message is removed from AMPS)
 @snapend

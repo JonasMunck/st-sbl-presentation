@@ -270,6 +270,16 @@ plain key-value dict to show more info / provide better context to user.
 - will override values on the resolved message in the target machine
 @ulend
 
+```json
+"editableFields": [
+    {
+      "name": "Volume",
+      "fieldType": "double",
+      "value": 5000.0
+    }
+  ]
+```
+
 ---
 
 ```json

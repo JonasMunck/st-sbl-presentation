@@ -30,6 +30,8 @@
 ![](img/sbl-nodes/node5.png)
 @snapend
 
+<!--
+
 ---
 
 @snap[midpoint seq-flow]
@@ -45,12 +47,16 @@ E: ["C", 5]
 ```
 
 ---
+-->
 
-
+@snap[midpoint seq-flow]
 ![](img/akka-ok-status.png)
+@snapend
 
 ---
 
+@snap[midpoint seq-flow]
 ![](img/akka-error-status.png)
+@snapend
 
 ---

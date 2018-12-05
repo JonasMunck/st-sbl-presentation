@@ -25,5 +25,4 @@
     If we recieve event before backoffice completed -> stop trade
 </div>
 
-+++
 

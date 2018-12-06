@@ -78,7 +78,7 @@ Two roles
 ---?include=md/sequence-flow/PITCHME.md
 
 ---
-@title[Considerations from a target machine perspective]
+@title[Considerations from a producers perspective]
 
 ### A Producers Considerations
 
@@ -320,7 +320,7 @@ plain key-value dict to show more info / provide better context to user.
 
 @ul
 - Generic way to let user update _specific_ values in stop trade client
-- will override values on the resolved message in the target machine
+- will override values on the resolved message in the producer
 @ulend
 
 ```json

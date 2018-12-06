@@ -29,5 +29,12 @@
 
 +++
 
+![](img/sbl101.png)
+
+<div class="fragment">
+![](img/sbl-second-chain.png)
+</div>
+
++++
 # Now it is Demo time :)
 

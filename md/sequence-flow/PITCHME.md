@@ -8,7 +8,7 @@ The Lifecycle of a StopTrade Message
 @snapend
 
 @snap[south fragment]
-@box[bg-orange text-white](1#Message hits target machine and it generates a stop trade)
+@box[bg-orange text-white](1#Message hits producer and it generates a stop trade)
 @snapend
 
 +++
@@ -22,7 +22,7 @@ The Lifecycle of a StopTrade Message
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-orange text-white](2b#Original message in stored in target services domain)
+@box[bg-orange text-white](2b#Original message in stored in producers domain)
 @snapend
 
 +++

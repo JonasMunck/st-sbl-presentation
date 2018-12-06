@@ -6,7 +6,7 @@
 
 +++?image=img/bg/pink.jpg&position=right&size=70% 100%
 
-@snap[west span-50]
+@snap[west span-40]
 HTTP API
 <br/>
 or

@@ -8,19 +8,18 @@
 
 @snap[west span-50]
 HTTP API
-<br/>
-or
-<br/>
-ASYNC CQRS
 @snapend
 
 @snap[east text-white span-50]
 @ol
 - accept specific payload
 - resolve messages according to business logic
-- send reply to stop trades
+- send reply to stop trades (sync or async)
 @olend
 
+Note:
+
+sync response is via HTTP, async is via kafka
 
 +++
 

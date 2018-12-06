@@ -74,7 +74,7 @@ public ResolveController([FromBody] ResolveDto resolveMessage)
 
 +++
 
-Any thoughts on which resolve pattern is "prefered"?
+Any thoughts on which `ResolveResponse` pattern is "prefered"?
 
 - sync
 - async

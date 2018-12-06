@@ -52,6 +52,12 @@
 
 +++
 
+@snap[midpoint seq-flow]
+![](img/sbl-nodes/node9.png)
+@snapend
+
++++
+
 ![](img/akka-ok-status.png)
 
 

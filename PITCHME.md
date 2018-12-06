@@ -1,6 +1,6 @@
-# ~~StopTrades~~
+#### ~~StopTrades~~
 
-# StoppedTransactions
+## StoppedTransactions
 
 An Implementation
 

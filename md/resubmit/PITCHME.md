@@ -4,9 +4,9 @@
 
 ##### Implementations on Producer side
 
-+++?image=img/bg/green.jpg&position=right&size=70% 100%
++++?image=img/bg/pink.jpg&position=right&size=70% 100%
 
-@snap[west text-orange span-50]
+@snap[west span-50]
 HTTP API
 @snapend
 

@@ -164,10 +164,6 @@ stop trade UI should not be able to do the same things as the originating system
 
 First quarter done. Questions?
 
----
-
-# Demo time
-
 ---?include=md/sbl-101/PITCHME.md
 
 ---

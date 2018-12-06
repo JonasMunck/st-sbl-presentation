@@ -233,6 +233,8 @@ See ADR 008
 
 ---
 
+Keys
+
 @ul
  - `source` - same for all messages produced by a service. Name must be unique
  - `sourceId` - unique for each message produced by a service.

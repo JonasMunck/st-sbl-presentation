@@ -25,8 +25,8 @@ Resubmit payload
 
 ```json
 {
-  "sourceId": 8912,
   "command": "Resolve",  /* or "Ignore" */
+  "sourceId": "8912",
   "editedFields": [
       {
           "name": "Volume",
@@ -38,3 +38,8 @@ Resubmit payload
 
 @[2-3](required)
 @[4-9](optional in resolve flow)
+
+Note:
+
+FieldType is not required here, since the producer service
+for sure knows what type the field in the original error message has.

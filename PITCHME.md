@@ -378,9 +378,8 @@ For which type of error should a specific field be editable?
 
 ---?include=md/resubmit/PITCHME.md
 
+---
 
 ## End of Presentation
 
-@fa[stars fa-3x]
-
----
+@fa[stars]

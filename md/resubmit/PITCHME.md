@@ -54,7 +54,7 @@ asp.net example
 
 ```cs
 [HttpPost]
-public async Task<IActionResponse> ResolveController([FromBody] ResolveDto resolveMessage)
+ResolveController([FromBody] ResolveDto resolveMessage)
 {
     var success = _handler.ExecuteResolveCommand(resolveMessage);  // business logic here
 

@@ -71,7 +71,7 @@ public ResolveController([FromBody] ResolveDto resolveMessage)
 
 +++
 
-@box[bg-red text-white rounded demo-box-pad](There is currently no way to send ResolveResponse via the async resolve pattern!)
+@box[bg-orange text-white rounded demo-box-pad](There is currently no way to send ResolveResponse via the async resolve pattern!)
 
 +++
 

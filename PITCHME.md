@@ -78,6 +78,10 @@ Two roles
 ---?include=md/sequence-flow/PITCHME.md
 
 ---
+
+# Questions?
+
+---
 @title[Considerations from a producers perspective]
 
 ### A Producers Considerations
@@ -158,7 +162,7 @@ stop trade UI should not be able to do the same things as the originating system
 **"Circuit Break" strategy**
 @snapend
 
-<h5 class="fragment">Up to target machine to decide if service should</h5>
+<h5 class="fragment">Up to producer to decide if it should</h5>
 
 @ul[span-130]
 - stop process messages completely (_service crash_)

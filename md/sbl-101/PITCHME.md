@@ -5,6 +5,7 @@
 @ul
 - like a loan
 - different events
+  - start a loan
   - amortization
   - change of interest rate
   - ...

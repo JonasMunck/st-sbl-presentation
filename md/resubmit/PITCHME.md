@@ -2,7 +2,9 @@
 
 # Resubmit API
 
-+++?image=img/bg/stopped-trades-resolve-flow.png
++++?image=img/stopped-trades-resolve-flow.png
+
++++
 
 ##### Implementations on Producer side
 

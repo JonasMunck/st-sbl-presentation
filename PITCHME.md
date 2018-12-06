@@ -26,9 +26,12 @@ Although mature, this is still work in progress.
 
 @box[bg-orange text-white rounded demo-box-pad](If you find flaws in the architecture or implementation - let me know!)
 
+
+---?include=md/sbl-101/PITCHME.md
+
 ---?image=img/bg/green.jpg
 
-Lets see it in action!
+Lets see stoptrades in action!
 
 ---
 
@@ -167,7 +170,13 @@ stop trade UI should not be able to do the same things as the originating system
 
 First quarter done. Questions?
 
----?include=md/sbl-101/PITCHME.md
+---
+
+# Demo Time
+
+---
+
+# Send Messages to StopTrades
 
 ---
 

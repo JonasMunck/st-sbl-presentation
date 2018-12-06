@@ -380,6 +380,15 @@ For which type of error should a specific field be editable?
 
 ---
 
+Next step
+
+@ul
+- Documentation
+- Clear examples separated from other business logic
+- Collaborate with f.ex Tautvydas to cover more cases
+
+---
+
 ## End of Presentation
 
 @fa[thumbs-up fa-2x]

@@ -208,6 +208,7 @@ See ADR 008
 
 ```json
 {
+  "resubmitUrl": "http://state-applier.sbl/api/v1/resubmit",
   "source": "SBL STATE APPLIER",
   "sourceId": 8912,
   "errorMessage": "Settlement is not implemented",
@@ -225,9 +226,10 @@ See ADR 008
 }
 ```
 
-@[2-3](index keys - required)
-@[4-8](UI structure enhancement)
-@[9-15](resolve)
+@[2](where to resubmit)
+@[3-4](index keys - required)
+@[5-9](UI structure enhancement)
+@[10-16](resolve)
 
 ---
 

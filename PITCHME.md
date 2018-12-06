@@ -26,8 +26,11 @@ Although mature, this is still work in progress.
 
 @box[bg-orange text-white rounded demo-box-pad](If you find flaws in the architecture or implementation - let me know!)
 
----
+---?image=img/bg/green.jpg
 
+Lets see it in action!
+
+---
 
 #### ADR Goals
 

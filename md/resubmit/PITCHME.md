@@ -17,3 +17,24 @@ HTTP API
 - send reply to stop trades
 @olend
 
+
++++
+
+Resubmit payload
+
+
+```json
+{
+  "sourceId": 8912,
+  "command": "Resolve",  /* or "Ignore" */
+  "editedFields": [
+      {
+          "name": "Volume",
+          "value": 4500
+      }
+  ]
+}
+```
+
+@[2-3](required)
+@[4-9](optional in resolve flow)

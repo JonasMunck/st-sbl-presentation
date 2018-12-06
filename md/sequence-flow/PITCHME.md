@@ -61,7 +61,7 @@ The Lifecycle of a StopTrade Message
 @snapend
 
 @snap[north-east]
-@title[Sync pattern]
+Sync pattern
 @snapend
 
 
@@ -76,3 +76,10 @@ The Lifecycle of a StopTrade Message
 @snap[south-east span-30 fragment]
 @box[bg-pink text-white](5c#stoptrade message is removed from AMPS)
 @snapend
+
++++
+
+@snap[north-east]
+Sync pattern
+@snapend
+

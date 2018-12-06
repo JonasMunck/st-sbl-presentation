@@ -8,6 +8,10 @@
 
 @snap[west span-50]
 HTTP API
+<br/>
+or
+<br/>
+ASYNC CQRS
 @snapend
 
 @snap[east text-white span-70]
@@ -28,10 +32,10 @@ Resubmit payload
   "command": "Resolve",  /* or "Ignore" */
   "sourceId": "8912",
   "editedFields": [
-      {
-          "name": "Volume",
-          "value": 4500
-      }
+    {
+      "name": "Volume",
+      "value": 4500
+    }
   ]
 }
 ```
@@ -41,5 +45,36 @@ Resubmit payload
 
 Note:
 
-FieldType is not required here, since the producer service
+FieldType is _not_ required here, since the producer service
 for sure knows what type the field in the original error message has.
+
++++
+
+asp.net example
+
+```cs
+[HttpPost]
+public async Task<IActionResponse> ResolveController([FromBody] ResolveDto resolveMessage)
+{
+    var success = _handler.ExecuteResolveCommand(resolveMessage);  // business logic here
+
+    if (success) return Ok();
+
+    // For some reason resolving failed.
+    // We now have the opportunity to tell our user why.
+    return SomeHttpError(new StopTrade.Dto.ResolveResponse {
+        Message = "Human readable error message"
+    });
+}
+```
+
++++
+
+@box[bg-red text-white rounded demo-box-pad](There is currently no way to send ResolveResponse via the async resolve pattern!)
+
++++
+
+Any thoughts on which resolve pattern is "prefered"?
+
+- sync
+- async

@@ -29,7 +29,7 @@
 
 +++
 
-![](img/sbl101.png)
+![](img/sbl-node-flow.png)
 
 <div class="fragment">
 ![](img/sbl-second-chain.png)

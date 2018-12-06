@@ -54,7 +54,7 @@ asp.net example
 
 ```cs
 [HttpPost]
-ResolveController([FromBody] ResolveDto resolveMessage)
+public ResolveController([FromBody] ResolveDto resolveMessage)
 {
     var success = _handler.ExecuteResolveCommand(resolveMessage);  // business logic here
 

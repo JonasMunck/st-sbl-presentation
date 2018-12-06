@@ -2,6 +2,8 @@
 
 # Resubmit API
 
++++?image=img/bg/stopped-trades-resolve-flow.png
+
 ##### Implementations on Producer side
 
 +++?image=img/bg/pink.jpg&position=right&size=65% 100%

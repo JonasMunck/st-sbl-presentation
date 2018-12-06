@@ -1,8 +1,6 @@
-# Demo Time
+# SBL 101
 
 +++
-
-## SBL 101
 
 @ul
 - like a loan

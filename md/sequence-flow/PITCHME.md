@@ -80,6 +80,22 @@ Sync pattern
 +++
 
 @snap[north-east]
-Sync pattern
+**Async** pattern
+@snapend
+
+@snap[north seq-flow]
+![seq-flow](img/stop-trades-sequence-flow.png)
+@snapend
+
+@snap[south-west span-30]
+@box[bg-pink text-white](2a#async. dispatch on queue, user does not know status yet)
+@snapend
+
+@snap[south span-30 fragment]
+@box[bg-pink text-white](5b#StopTrade UI is notified via WebSocket)
+@snapend
+
+@snap[south-east span-30 fragment]
+@box[bg-pink text-white](5c#stoptrade message is removed from AMPS)
 @snapend
 

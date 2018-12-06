@@ -60,6 +60,10 @@ The Lifecycle of a StopTrade Message
 ![seq-flow](img/stop-trades-sequence-flow.png)
 @snapend
 
+@snap[north-east]
+@title[Sync pattern]
+@snapend
+
 
 @snap[south-west span-30]
 @box[bg-pink text-white](5a#sync. response to client, user knows if resolving was successful)

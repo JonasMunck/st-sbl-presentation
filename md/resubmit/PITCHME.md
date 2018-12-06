@@ -14,7 +14,7 @@ or
 ASYNC CQRS
 @snapend
 
-@snap[east text-white span-70]
+@snap[east text-white span-50]
 @ol
 - accept specific payload
 - resolve messages according to business logic

@@ -56,7 +56,8 @@ asp.net example
 [HttpPost]
 public ResolveController([FromBody] ResolveDto resolveMessage)
 {
-    var success = _handler.ExecuteResolveCommand(resolveMessage);  // business logic here
+                  // business logic here
+    var success = _handler.Resolve(resolveMessage);
 
     if (success) return Ok();
 

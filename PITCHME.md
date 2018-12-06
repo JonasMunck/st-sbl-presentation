@@ -382,4 +382,4 @@ For which type of error should a specific field be editable?
 
 ## End of Presentation
 
-@fa[stars]
+@fa[thumbs-up]
